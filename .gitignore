@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+data/
+备份/
+*.sqlite*
+.env*
+test-results/

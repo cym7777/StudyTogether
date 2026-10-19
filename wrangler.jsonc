@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "study-together-d4ab8e13f7a3",
+  "account_id": "fd99c44c04a16b2fd1f88267a9a27217",
+  "main": "server/worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "study-together-d4ab8e13f7a3", "database_id": "4bb34246-8e02-4030-8a68-5304533a5955", "migrations_dir": "migrations" }],
+  "send_metrics": false
+}

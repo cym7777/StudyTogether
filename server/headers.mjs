@@ -1,0 +1,6 @@
+export const securityHeaders={
+ 'Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'",
+ 'X-Content-Type-Options':'nosniff',
+ 'Referrer-Policy':'no-referrer',
+ 'X-Robots-Tag':'noindex, nofollow',
+};
